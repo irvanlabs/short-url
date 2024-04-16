@@ -1,0 +1,23 @@
+{
+  "name": "koalapo",
+  "module": "main.js",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@koa/bodyparser": "^5.1.1",
+    "@koa/router": "^12.0.1",
+    "@prisma/client": "5.12.1",
+    "koa": "^2.15.3",
+    "koa-body": "^6.0.1",
+    "koa-bodyparser": "^4.4.1",
+    "nanoid": "^5.0.7",
+    "prisma": "^5.12.1",
+    "ulid": "^2.3.0",
+    "url-parse": "^1.5.10"
+  }
+}
