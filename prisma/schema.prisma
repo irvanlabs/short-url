@@ -28,3 +28,9 @@ model LinkStats {
   userAgent    String?
   ipAddress    String?
 }
+
+model Config {
+  id        Int       @id @default(autoincrement())
+  key       String
+  value     String
+}
