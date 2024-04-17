@@ -174,8 +174,5 @@ dist
 # Finder (MacOS) folder config
 .DS_Store
 
-# Ignore isi folder database
-/database/*
-# Kecuali folder database itu sendiri
-!/database/
+
 /prisma/migrations
